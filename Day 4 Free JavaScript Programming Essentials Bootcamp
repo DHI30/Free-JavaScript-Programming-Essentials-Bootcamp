@@ -1,0 +1,29 @@
+# Write a JS code to print a pattern using for loop
+1
+12
+123
+12345
+123456
+1234567
+12345678
+
+<html>
+<head>
+<title>JavaScript Number Patterns</title>
+<script type="text/javascript">
+for(m=1; m <= 5; m++)
+{
+for(n=1; n<=m; n++)
+{
+document.write(n);
+if(n == m)
+continue;
+else
+document.write(' ');
+}
+document.write('<br />');
+}
+</script>
+</head>
+<body></body>
+</html>
